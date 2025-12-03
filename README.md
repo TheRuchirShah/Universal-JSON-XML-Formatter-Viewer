@@ -14,6 +14,8 @@ Perfect for developers working with APIs, logs, or large datasets.
 
 
 ## 📂 Project Structure
+
+```
 universal-json-xml-formatter/
 │
 ├── assets
@@ -23,6 +25,7 @@ universal-json-xml-formatter/
     ├── script.js
 ├── README.md
 └── LICENSE
+```
 
 
 ## 🔧 How to Use
