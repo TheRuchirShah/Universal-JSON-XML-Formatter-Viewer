@@ -16,7 +16,7 @@ Perfect for developers working with APIs, logs, or large datasets.
 ## 📂 Project Structure
 
 ```
-universal-json-xml-formatter/
+.universal-json-xml-formatter/
 │
 ├── assets
 ├── src
