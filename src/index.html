@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal JSON/XML Formatter & Viewer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+  <main class="flex-1 w-full flex flex-col items-center p-4">
+    <h1 class="text-3xl font-bold mb-4 text-gray-800">Universal JSON/XML Formatter & Viewer</h1>
+
+    <textarea id="input" placeholder="Paste JSON or XML here..."
+      class="w-full max-w-4xl p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none h-40 mb-4"></textarea>
+    
+    <button id="formatBtn" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mb-4">
+      Format
+    </button>
+
+    <div id="output" class="w-full max-w-4xl bg-white p-4 rounded shadow overflow-auto text-sm font-mono mb-4" placeholder="output comes here"></div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-4 w-full flex justify-center items-center text-gray-600">
+    <p>Built for developers - Ruchir Shah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
