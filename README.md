@@ -42,9 +42,10 @@ Perfect for developers working with APIs, logs, or large datasets.
 - Zero dependencies  
 
 
+<!-- 
 ## 📸 Screenshot  
 *(Add screenshot here once deployed)*
-
+-->
 
 ## 📄 License  
 This project is licensed under the **MIT License**.
